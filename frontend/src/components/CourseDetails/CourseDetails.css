@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@300&family=Montserrat&family=Oswald:wght@300&family=Roboto&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#components-layout-demo-side {
+    height: 32px;
+    margin: 16px;
+    background: #ffffffbd;
+}
+  
+.site-layout .site-layout-background {
+    background: #EFF3FD;
+}
+
+.sideBar {
+    background: #ffffff;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+.ant-menu-item-selected {
+    color: #00DEA3 !important;
+}
+
+
+
+.vertical {
+    border-left: 1px solid #E4E6EE;
+    height: 30px;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+button{
+    border: none;
+    outline: none;
+    background: rgba(10, 234, 163, 0.2);
+    border-radius: 16px;
+    padding: 2px 15px;
+    color: #36846f;
+    transition: 0.35s ease;
+}
+
+button:hover{
+    background: rgba(36, 193, 143, 0.416);
+    cursor: pointer;
+    color: #ffffff;
+
+
+
+}
+
+.lightCourse{
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    opacity: 0.8;
+    color: #3a3f3d;
+    padding-top: 10px;
+}
+
+.menuFooter2{
+    background-color: #00DEA3;
+    border-radius: 20%;
+    margin: 15px;
+
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    position:sticky;
+    
+}
+
+.menuFooter{
+    background-color: #00DEA3;
+    border-radius: 20%;
+    margin: 15px;
+
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    position:sticky;
+    
+}
+
+.signOutInfo2 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    text-align: center;
+}
+
+.signOutInfo {
+    bottom: 5%;
+
+}
+
+.SignOutButton {
+    margin-bottom: 15%;
+    width: 70% !important;
+    margin-left: 10%;
+    background-color: #3D8B9C;
+    border: none;
+    color: #ffffff;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+    color: #00DEA3;
+  }
+
+.Header {
+    /* background: #00DEA3;  */
+    padding-top: 15px; 
+    margin: 15px auto;
+}
+.WelcomeMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Avatar {
+    width: 40px;
+    border-radius: 20%;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.NotificationArea {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    flex-direction: row;
+    width: 25%;
+    justify-content: end;
+    align-items: center;
+    align-content: flex-start;
+}
+
+#Name{
+    font-family: 'Abel';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 5px;
+}
+
+#loginDetails{
+    margin-top: -12px;
+    padding: 0;
+}
+
+.CourseBoxes{
+    background-color: #ffffff;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    height: fit-content;
+    
+}
+
+.ant-table-tbody{
+    font-family: Josefin+Sans, 'Times New Roman', Times, serif ;
+}
+
+.ant-col-10{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin-right: 5px auto;
+}
+
+.twoBoxes{
+    justify-content: space-between;
+    object-fit: contain;
+}
+
+.verticleBig{
+    width: 1px;
+    height: 202px;
+    background: #EFF0F4;
+    border-left: 3px solid #EFF0F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.tableDescriptionHeadings{
+    display: block !important;
+    /* justify-content: center; */
+    
+}
+
+hr{
+    width: 10%;
+    text-align: center;
+    position: relative;
+    top: -5px;
+    margin: 5px auto;
+    border: 2px solid #3a3f3d3f;
+
+}
+
+.colHead{
+    text-align: left;
+    font-weight: 700;
+}
+
+.icon{
+    margin-right: 1%;
+}

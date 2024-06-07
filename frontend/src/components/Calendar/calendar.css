@@ -1,0 +1,9 @@
+.calender {
+  font-family: sans-serif;
+  object-fit: contain;
+
+}
+
+.rbc-event{
+height: fit-content !important;
+}
